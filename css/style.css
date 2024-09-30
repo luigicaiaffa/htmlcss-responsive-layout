@@ -29,7 +29,7 @@ footer {
 }
 
 main {
-  background-color: #eeeeee;
+  background-color: #f5f5f5;
 }
 
 /* # UTILS */
@@ -73,7 +73,7 @@ main {
   text-align: center;
   color: #ff9614;
   font-size: 3.2rem;
-  padding: 0.7rem 2rem;
+  padding: 0.6rem 1.5rem;
   text-shadow: 1px 1px #a0a0a0;
 }
 
@@ -82,14 +82,15 @@ main {
 /* # VIDEO SECTION */
 
 .recipe-type {
-  color: #353535;
+  color: #afafaf;
   font-size: 1rem;
   padding: 1.5rem 0 0.5rem;
 }
 
 .recipe-title {
   color: #7c69a4;
-  font-size: 1.7rem;
+  font-size: 1.6rem;
+  font-weight: 800;
 }
 
 .video-section > .container {
@@ -122,6 +123,7 @@ main {
 
 .recipe-in-short-title {
   padding: 2rem 2rem;
+  font-size: 1.4rem;
 }
 
 /* # BTN SECTION */
@@ -245,10 +247,16 @@ footer > .container {
     flex-grow: 1;
   }
 
-  /* RECIPE SECTION CONTENT */
+  /* RECIPE SECTION // SECTION CONTENT */
   .section-content img {
     float: left;
     margin-right: 0.5rem;
+    width: 50%;
+  }
+
+  /* FOOTER // RIGHT FOOTER NAV */
+  .right-footer li {
+    padding: 0 0.5rem;
   }
 }
 
@@ -270,6 +278,32 @@ footer > .container {
 
   .d-md-flex {
     display: flex;
+  }
+
+  /* UTILS */
+  .container {
+    padding: 20px 50px;
+  }
+
+  /* HEADER */
+  .header-title {
+    text-align: left;
+  }
+
+  /* VIDEO SECTION // RECIPE IN SHORT */
+  .recipe-title {
+    font-size: 2rem;
+  }
+
+  .recipe-info {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .recipe-in-short {
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    flex-basis: 30%;
   }
 }
 
