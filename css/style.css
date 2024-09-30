@@ -128,8 +128,9 @@ main {
 
 .btn-section > .container {
   justify-content: space-between;
-  padding: 0;
+  gap: 2rem;
   margin-bottom: 2rem;
+  padding: 0;
 }
 
 /* facebook */
@@ -238,11 +239,23 @@ footer > .container {
   .d-sm-flex {
     display: flex;
   }
+
+  /* BTN SECTION */
+  .btn {
+    flex-grow: 1;
+  }
+
+  /* RECIPE SECTION CONTENT */
+  .section-content img {
+    float: left;
+    margin-right: 0.5rem;
+  }
 }
 
 /* # 768 PX */
 
 @media screen and (min-width: 768px) {
+  /* DISPLAY UTILS */
   .d-md-none {
     display: none;
   }
