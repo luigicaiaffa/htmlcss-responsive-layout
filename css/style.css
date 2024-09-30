@@ -15,20 +15,136 @@ footer {
   font-family: "Montserrat", "Helvetica Neue", sans-serif;
 }
 
+main {
+  background-color: #a0a0a0;
+}
+
 /* # UTILS */
 
 .container {
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 20px;
   width: 1000px;
   max-width: 100%;
+}
+
+/* # DISPLAY UTILS */
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-flex {
+  display: flex;
 }
 
 /* ! HEADER */
 
 .header-title {
+  text-align: center;
   color: #ff9614;
   font-size: 3.5rem;
   padding: 0.7rem 2rem;
   text-shadow: 1px 1px #a0a0a0;
+}
+
+/* ! MAIN */
+
+/* # VIDEO SECTION */
+
+.recipe-type {
+}
+
+.recipe-title {
+}
+
+.video-section > .container {
+  flex-direction: column;
+  margin: 2rem auto;
+  padding: 0;
+}
+
+.iframe {
+  width: 100%;
+  aspect-ratio: 1.75;
+}
+
+.lg-col {
+  flex-basis: 70%;
+  background-color: white;
+}
+
+.sm-col {
+  flex-basis: 30%;
+  background-color: white;
+}
+
+/* ! MEDIA QUERY */
+
+/* # 576 PX */
+
+@media screen and (min-width: 576px) {
+  .d-sm-none {
+    display: none;
+  }
+
+  .d-sm-block {
+    display: block;
+  }
+
+  .d-sm-inline {
+    display: inline;
+  }
+
+  .d-sm-flex {
+    display: flex;
+  }
+}
+
+/* # 768 PX */
+
+@media screen and (min-width: 768px) {
+  .d-md-none {
+    display: none;
+  }
+
+  .d-md-block {
+    display: block;
+  }
+
+  .d-md-inline {
+    display: inline;
+  }
+
+  .d-md-flex {
+    display: flex;
+  }
+}
+
+/* # 992 PX */
+
+@media screen and (min-width: 992px) {
+  .d-lg-none {
+    display: none;
+  }
+
+  .d-lg-block {
+    display: block;
+  }
+
+  .d-lg-inline {
+    display: inline;
+  }
+
+  .d-lg-flex {
+    display: flex;
+  }
 }
