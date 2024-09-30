@@ -14,6 +14,15 @@ img {
   width: 100%;
 }
 
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+a {
+  color: currentColor;
+}
+
 main,
 footer {
   font-family: "Montserrat", "Helvetica Neue", sans-serif;
@@ -110,6 +119,17 @@ main {
 
 .adv-img {
   margin: 2rem auto;
+}
+
+/* # RECIPE SECTION */
+
+/* ! FOOTER */
+
+footer > .container {
+  background-color: #7c69a4;
+  color: white;
+  text-align: center;
+  padding: 2rem;
 }
 
 /* ! MEDIA QUERY */
